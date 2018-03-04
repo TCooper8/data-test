@@ -4,6 +4,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="src/Storage.fs" />
+    <Compile Include="src/FileStorage.fs" />
+    <Compile Include="src/Data.fs" />
+    <Compile Include="src/Seq.fs" />
+    <Compile Include="src/Binary.fs" />
+    <Compile Include="src/Csv.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
