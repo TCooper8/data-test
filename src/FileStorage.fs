@@ -143,10 +143,6 @@ type private FileStorage (rootDir:string) =
         writer.Write "float "B
         writer.Write (int32 -1)
 
-      | RemovedDType ->
-        writer.Write "remove"B
-        writer.Write (int32 -1)
-
       return
         new ColumnWriter(dtype, writer)
         :> IColumnWriter
